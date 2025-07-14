@@ -1,0 +1,8 @@
+# Normalize Python files to use LF line endings
+*.py text eol=lf
+
+# Treat WAV and other binary files correctly
+*.wav binary
+
+# Make sure requirements files are treated as text
+requirements.txt text
