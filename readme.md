@@ -18,7 +18,7 @@ This project demonstrates how to use the Kokoro TTS model to convert text into n
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/MahmoudAbuAwd/KokoroTTS
 cd kokoro-tts
 ```
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Basic Usage
+### Main.py
 
 ```python
 from kokoro import KPipeline
@@ -162,14 +162,6 @@ streamlit run streamlit/app.py
 
 This project is licensed under the terms specified in the LICENSE file.
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Import Error**: Ensure all dependencies are installed correctly
-2. **Audio Playback**: Make sure you're running in a Jupyter notebook environment for `IPython.display.Audio`
-3. **File Output**: Check write permissions for the output directory
-
 ### Performance Tips
 
 - For longer texts, consider processing in smaller chunks
@@ -179,7 +171,3 @@ This project is licensed under the terms specified in the LICENSE file.
 ## Support
 
 For issues and questions, please refer to the project's issue tracker or documentation.
-
----
-
-*This README provides a comprehensive guide to using the Kokoro TTS system. For more advanced usage and customization options, please refer to the official Kokoro documentation.*
